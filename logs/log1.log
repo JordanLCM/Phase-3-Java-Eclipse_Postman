@@ -1,0 +1,34 @@
+CLASSNAME = SimP_GetRequest
+Step 001 ==> URL = https://reqres.in
+Step 002 ==> PATH = /api/users?page=2
+Step 003 ==> GET REQUEST
+Step 004 ==> PRINT RESPONSE
+Step 005 ==> STATUS CODE
+Response code = 200 // HTTP/1.1 200 OK
+RESPONSE CODE PASSED!
+CLASSNAME = SimP_Steps.SimP_PostRequest
+Step 001 ==> URL = https://reqres.in
+Step 002 ==> PATH = /api/users
+Step 004 ==> JSON FILE
+Step 003 ==> Post request
+Step 005 ==> PRINT RESPONSE
+Step 006 ==> STATUS CODE
+Response code = 201 // HTTP/1.1 201 Created
+RESPONSE CODE PASSED!
+CLASSNAME = SimP_Steps.SimP_PutRequest
+Step 001 ==> URL = https://reqres.in
+Step 002 ==> PATH = /api/users/2
+Step 004 ==> JSON FILE
+Step 003 ==> Put request
+Step 005 ==> PRINT RESPONSE
+Step 006 ==> STATUS CODE
+Response code = 200 // HTTP/1.1 200 OK
+RESPONSE CODE PASSED!
+CLASSNAME = SimP_Steps.SimP_DeleteRequest
+Step 001 ==> URL = https://reqres.in
+Step 002 ==> PATH = /api/users/2
+Step 003 ==> DELETE REQUEST
+Step 004 ==> PRINT RESPONSE
+Step 005 ==> STATUS CODE
+Response code = 204 // HTTP/1.1 204 No Content
+DELETE REQUEST PASSED!!!
